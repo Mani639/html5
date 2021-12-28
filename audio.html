@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>audio</title>
+</head>
+<body>
+	<h1>Playing Audio</h1>
+	<h2>Audio file in WAV format</h2>
+	<audio src="wav-recording.wav" controls>This browser doesn't support audio tag
+	</audio>
+	<h2>Audio file in MP3 format</h2>
+	<audio src="mp3-recording.mp3" controls>This browser doesn't support audio tag
+	</audio>
+	<h2>Audio file in multiple formats</h2>
+    <audio controls>
+    <source src="wav-recording.wav" type="audio/wav"></source>
+    <source src="wav-recording.wav" type="audio/mp3"></source>	
+    <source src="ogg-recording.ogg" type="audio/ogg"></source>	
+</audio>
+</body>
+</html>
